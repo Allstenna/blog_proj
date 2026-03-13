@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     `;
 
           // Add to list
-          commentsList.appendChild(newComment);
+          commentsList.prepend(newComment);
 
           // Clear form
           // Fixed: Set to empty string instead of space
